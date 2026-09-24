@@ -30,7 +30,7 @@ async def handle_message(message: types.Message):
     try:
         # Делаем сверхбыстрый официальный запрос к модели Llama 3.1
         completion = groq_client.chat.completions.create(
-            model="llama-3.1-70b-versatile",
+            model="llama-3.3-70b-versatile",
             messages=[
                 {"role": "system", "content": "Ты полезный ИИ-ассистент. Отвечай на русском языке."},
                 {"role": "user", "content": message.text}
