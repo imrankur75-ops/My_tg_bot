@@ -1,5 +1,4 @@
-# 1. Автоматически устанавливаем библиотеки на сервер
-!pip install -q --upgrade aiogram g4f asyncio
+
 
 import asyncio
 import logging
